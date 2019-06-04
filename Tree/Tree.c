@@ -62,7 +62,7 @@ TreeNode *Parent(Tree *tree, char node) {
     return NULL;
 }
 
-// 返回树中结点node的值
+// 返回树中结点node的地址
 TreeNode *Value(Tree *tree, char node) {
     int i;
     TreeNode *rootNode = Root(tree);

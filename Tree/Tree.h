@@ -41,7 +41,7 @@ TreeNode *Root(Tree *tree);
 // 返回node结点的双亲结点
 TreeNode *Parent(Tree *tree, char node);
 
-// 返回树中结点node的值
+// 返回树中结点node的地址
 TreeNode *Value(Tree *tree, char node);
 
 // 返回树中结点node的最左孩子结点
