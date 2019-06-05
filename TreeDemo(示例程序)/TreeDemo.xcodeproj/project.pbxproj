@@ -13,9 +13,9 @@
 		EAD6999A22A76EBD006F4C31 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = EAD6999922A76EBD006F4C31 /* main.c */; };
 		EAD699A522A78042006F4C31 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = EAD699A422A78042006F4C31 /* main.c */; };
 		EAD699B022A78055006F4C31 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = EAD699AF22A78055006F4C31 /* main.c */; };
-		EAD699B622A78080006F4C31 /* BinaryTreeSeq.c in Sources */ = {isa = PBXBuildFile; fileRef = EAD699B522A78080006F4C31 /* BinaryTreeSeq.c */; };
-		EAD699B922A780EA006F4C31 /* TreeParent.c in Sources */ = {isa = PBXBuildFile; fileRef = EAD699B822A780EA006F4C31 /* TreeParent.c */; };
-		EAD699BC22A782B8006F4C31 /* BinaryTreeLink.c in Sources */ = {isa = PBXBuildFile; fileRef = EAD699BB22A782B8006F4C31 /* BinaryTreeLink.c */; };
+		EAD699C222A7877C006F4C31 /* TreeParent.c in Sources */ = {isa = PBXBuildFile; fileRef = EAD699C122A7877C006F4C31 /* TreeParent.c */; };
+		EAD699C522A78796006F4C31 /* BinaryTreeSeq.c in Sources */ = {isa = PBXBuildFile; fileRef = EAD699C422A78796006F4C31 /* BinaryTreeSeq.c */; };
+		EAD699C822A787A3006F4C31 /* BinaryTreeLink.c in Sources */ = {isa = PBXBuildFile; fileRef = EAD699C622A787A3006F4C31 /* BinaryTreeLink.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -88,12 +88,12 @@
 		EAD699A422A78042006F4C31 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		EAD699AD22A78055006F4C31 /* BinaryTreeLink */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BinaryTreeLink; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAD699AF22A78055006F4C31 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		EAD699B422A78080006F4C31 /* BinaryTreeSeq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BinaryTreeSeq.h; path = ../../BinaryTree/BinaryTreeSeq.h; sourceTree = "<group>"; };
-		EAD699B522A78080006F4C31 /* BinaryTreeSeq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = BinaryTreeSeq.c; path = ../../BinaryTree/BinaryTreeSeq.c; sourceTree = "<group>"; };
-		EAD699B722A780EA006F4C31 /* TreeParent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TreeParent.h; path = ../../TreeParent/TreeParent.h; sourceTree = "<group>"; };
-		EAD699B822A780EA006F4C31 /* TreeParent.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = TreeParent.c; path = ../../TreeParent/TreeParent.c; sourceTree = "<group>"; };
-		EAD699BA22A782B8006F4C31 /* BinaryTreeLink.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BinaryTreeLink.h; path = ../../BinaryTreeLink/BinaryTreeLink.h; sourceTree = "<group>"; };
-		EAD699BB22A782B8006F4C31 /* BinaryTreeLink.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = BinaryTreeLink.c; path = ../../BinaryTreeLink/BinaryTreeLink.c; sourceTree = "<group>"; };
+		EAD699C022A7877C006F4C31 /* TreeParent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TreeParent.h; path = "../../TreeParent(树双亲表示法)/TreeParent.h"; sourceTree = "<group>"; };
+		EAD699C122A7877C006F4C31 /* TreeParent.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = TreeParent.c; path = "../../TreeParent(树双亲表示法)/TreeParent.c"; sourceTree = "<group>"; };
+		EAD699C322A78796006F4C31 /* BinaryTreeSeq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BinaryTreeSeq.h; path = "../../BinaryTreeSeq(二叉树顺序存储)/BinaryTreeSeq.h"; sourceTree = "<group>"; };
+		EAD699C422A78796006F4C31 /* BinaryTreeSeq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = BinaryTreeSeq.c; path = "../../BinaryTreeSeq(二叉树顺序存储)/BinaryTreeSeq.c"; sourceTree = "<group>"; };
+		EAD699C622A787A3006F4C31 /* BinaryTreeLink.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = BinaryTreeLink.c; path = "../../BinaryTreeLink(二叉树链式存储)/BinaryTreeLink.c"; sourceTree = "<group>"; };
+		EAD699C722A787A3006F4C31 /* BinaryTreeLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BinaryTreeLink.h; path = "../../BinaryTreeLink(二叉树链式存储)/BinaryTreeLink.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,8 +179,8 @@
 		EAD6998222A76E54006F4C31 /* TreeParent */ = {
 			isa = PBXGroup;
 			children = (
-				EAD699B822A780EA006F4C31 /* TreeParent.c */,
-				EAD699B722A780EA006F4C31 /* TreeParent.h */,
+				EAD699C122A7877C006F4C31 /* TreeParent.c */,
+				EAD699C022A7877C006F4C31 /* TreeParent.h */,
 				EAD6998322A76E54006F4C31 /* main.c */,
 			);
 			path = TreeParent;
@@ -205,8 +205,8 @@
 		EAD699A322A78042006F4C31 /* BinaryTreeSeq */ = {
 			isa = PBXGroup;
 			children = (
-				EAD699B522A78080006F4C31 /* BinaryTreeSeq.c */,
-				EAD699B422A78080006F4C31 /* BinaryTreeSeq.h */,
+				EAD699C422A78796006F4C31 /* BinaryTreeSeq.c */,
+				EAD699C322A78796006F4C31 /* BinaryTreeSeq.h */,
 				EAD699A422A78042006F4C31 /* main.c */,
 			);
 			path = BinaryTreeSeq;
@@ -215,9 +215,9 @@
 		EAD699AE22A78055006F4C31 /* BinaryTreeLink */ = {
 			isa = PBXGroup;
 			children = (
+				EAD699C622A787A3006F4C31 /* BinaryTreeLink.c */,
+				EAD699C722A787A3006F4C31 /* BinaryTreeLink.h */,
 				EAD699AF22A78055006F4C31 /* main.c */,
-				EAD699BA22A782B8006F4C31 /* BinaryTreeLink.h */,
-				EAD699BB22A782B8006F4C31 /* BinaryTreeLink.c */,
 			);
 			path = BinaryTreeLink;
 			sourceTree = "<group>";
@@ -392,7 +392,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAD6998422A76E54006F4C31 /* main.c in Sources */,
-				EAD699B922A780EA006F4C31 /* TreeParent.c in Sources */,
+				EAD699C222A7877C006F4C31 /* TreeParent.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,7 +416,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAD699B622A78080006F4C31 /* BinaryTreeSeq.c in Sources */,
+				EAD699C522A78796006F4C31 /* BinaryTreeSeq.c in Sources */,
 				EAD699A522A78042006F4C31 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,7 +425,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAD699BC22A782B8006F4C31 /* BinaryTreeLink.c in Sources */,
+				EAD699C822A787A3006F4C31 /* BinaryTreeLink.c in Sources */,
 				EAD699B022A78055006F4C31 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
