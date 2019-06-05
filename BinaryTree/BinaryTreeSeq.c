@@ -4,9 +4,9 @@
 //
 //  Created by ggl on 2019/6/4.
 //  Copyright © 2019 ggl. All rights reserved.
-//
+//  二叉树的顺序存储结构
 
-#include "BinaryTree.h"
+#include "BinaryTreeSeq.h"
 
 // 创建以bt为根结点，lbt为左子树，rbt为右子树的二叉树
 BTSEQ *Create_BT(DATATYPE2 bt, DATATYPE2 lbt, DATATYPE2 rbt) {
@@ -19,6 +19,23 @@ BTSEQ *Create_BT(DATATYPE2 bt, DATATYPE2 lbt, DATATYPE2 rbt) {
     btSeq->bt[1] = lbt;
     btSeq->bt[2] = rbt;
     btSeq->btnum = 3;
+    
+    return btSeq;
+}
+
+// 创建二叉树，例如 abcd#e#f，#表示无结点
+BTSEQ *Create_BT1() {
+    int i;
+    char str[MAXSIZE];
+    gets(str);
+    
+    // 创建二叉树结构
+    BTSEQ *btSeq = (BTSEQ *)malloc(sizeof(BTSEQ));
+    btSeq->btnum = 0;
+    for (i = 0; i < strlen(str); i++) {
+        btSeq->btnum += 1;
+        btSeq->bt[i] = str[i];
+    }
     
     return btSeq;
 }
@@ -131,4 +148,28 @@ int TreeEmpty(BTSEQ *bt) {
         return 1;
     }
     return 0;
+}
+
+// 打印二叉树
+void TreePrint(BTSEQ *bt) {
+    int i;
+    if (bt == NULL || bt->btnum == 0) {
+        return;
+    }
+    
+    printf("二叉树树数组信息：");
+    for (i = 0; i < bt->btnum; i++) {
+        if (i != bt->btnum - 1) {
+            printf("%c ", bt->bt[i]);
+        } else {
+            printf("%c\n", bt->bt[i]);
+        }
+    }
+}
+
+// 释放二叉树占用的堆空间
+void TreeDealloc(BTSEQ *bt) {
+    if (bt != NULL) {
+        free(bt);
+    }
 }

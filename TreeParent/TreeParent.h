@@ -54,7 +54,10 @@ TreeNode *RightSibling(Tree *tree, char node);
 int TreeEmpty(Tree *tree);
 
 // 打印Tree
-void Print(Tree *tree);
+void TreePrint(Tree *tree);
+
+// 销毁树结构
+void TreeDealloc(Tree *tree);
 
 
 #endif /* Tree_h */

@@ -7,13 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EAD6993A22A63260006F4C31 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = EAD6993822A63260006F4C31 /* main.c */; };
-		EAD6993B22A63260006F4C31 /* Tree.c in Sources */ = {isa = PBXBuildFile; fileRef = EAD6993922A63260006F4C31 /* Tree.c */; };
-		EAD6993F22A632EF006F4C31 /* BinaryTree.c in Sources */ = {isa = PBXBuildFile; fileRef = EAD6993E22A632EF006F4C31 /* BinaryTree.c */; };
+		EAD6997722A76E36006F4C31 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = EAD6997622A76E36006F4C31 /* main.c */; };
+		EAD6998422A76E54006F4C31 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = EAD6998322A76E54006F4C31 /* main.c */; };
+		EAD6998F22A76E9C006F4C31 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = EAD6998E22A76E9C006F4C31 /* main.c */; };
+		EAD6999A22A76EBD006F4C31 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = EAD6999922A76EBD006F4C31 /* main.c */; };
+		EAD699A522A78042006F4C31 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = EAD699A422A78042006F4C31 /* main.c */; };
+		EAD699B022A78055006F4C31 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = EAD699AF22A78055006F4C31 /* main.c */; };
+		EAD699B622A78080006F4C31 /* BinaryTreeSeq.c in Sources */ = {isa = PBXBuildFile; fileRef = EAD699B522A78080006F4C31 /* BinaryTreeSeq.c */; };
+		EAD699B922A780EA006F4C31 /* TreeParent.c in Sources */ = {isa = PBXBuildFile; fileRef = EAD699B822A780EA006F4C31 /* TreeParent.c */; };
+		EAD699BC22A782B8006F4C31 /* BinaryTreeLink.c in Sources */ = {isa = PBXBuildFile; fileRef = EAD699BB22A782B8006F4C31 /* BinaryTreeLink.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		EAD6992922A631FF006F4C31 /* CopyFiles */ = {
+		EAD6997122A76E36006F4C31 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EAD6997F22A76E54006F4C31 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EAD6998A22A76E9C006F4C31 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EAD6999522A76EBD006F4C31 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EAD699A022A78042006F4C31 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EAD699AB22A78055006F4C31 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,16 +76,63 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		EAD6992B22A631FF006F4C31 /* TreeDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TreeDemo; sourceTree = BUILT_PRODUCTS_DIR; };
-		EAD6993722A63260006F4C31 /* Tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
-		EAD6993822A63260006F4C31 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		EAD6993922A63260006F4C31 /* Tree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Tree.c; sourceTree = "<group>"; };
-		EAD6993D22A632EF006F4C31 /* BinaryTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BinaryTree.h; path = ../../BinaryTree/BinaryTree.h; sourceTree = "<group>"; };
-		EAD6993E22A632EF006F4C31 /* BinaryTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = BinaryTree.c; path = ../../BinaryTree/BinaryTree.c; sourceTree = "<group>"; };
+		EAD6997322A76E36006F4C31 /* TreeDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TreeDemo; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAD6997622A76E36006F4C31 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		EAD6998122A76E54006F4C31 /* TreeParent */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TreeParent; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAD6998322A76E54006F4C31 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		EAD6998C22A76E9C006F4C31 /* TreeChild */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TreeChild; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAD6998E22A76E9C006F4C31 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		EAD6999722A76EBD006F4C31 /* TreeChildSibling */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TreeChildSibling; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAD6999922A76EBD006F4C31 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		EAD699A222A78042006F4C31 /* BinaryTreeSeq */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BinaryTreeSeq; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAD699A422A78042006F4C31 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		EAD699AD22A78055006F4C31 /* BinaryTreeLink */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BinaryTreeLink; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAD699AF22A78055006F4C31 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		EAD699B422A78080006F4C31 /* BinaryTreeSeq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BinaryTreeSeq.h; path = ../../BinaryTree/BinaryTreeSeq.h; sourceTree = "<group>"; };
+		EAD699B522A78080006F4C31 /* BinaryTreeSeq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = BinaryTreeSeq.c; path = ../../BinaryTree/BinaryTreeSeq.c; sourceTree = "<group>"; };
+		EAD699B722A780EA006F4C31 /* TreeParent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TreeParent.h; path = ../../TreeParent/TreeParent.h; sourceTree = "<group>"; };
+		EAD699B822A780EA006F4C31 /* TreeParent.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = TreeParent.c; path = ../../TreeParent/TreeParent.c; sourceTree = "<group>"; };
+		EAD699BA22A782B8006F4C31 /* BinaryTreeLink.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BinaryTreeLink.h; path = ../../BinaryTreeLink/BinaryTreeLink.h; sourceTree = "<group>"; };
+		EAD699BB22A782B8006F4C31 /* BinaryTreeLink.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = BinaryTreeLink.c; path = ../../BinaryTreeLink/BinaryTreeLink.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EAD6992822A631FF006F4C31 /* Frameworks */ = {
+		EAD6997022A76E36006F4C31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD6997E22A76E54006F4C31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD6998922A76E9C006F4C31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD6999422A76EBD006F4C31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD6999F22A78042006F4C31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD699AA22A78055006F4C31 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,53 +142,96 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EAD6992222A631FF006F4C31 = {
+		EAD6996A22A76E36006F4C31 = {
 			isa = PBXGroup;
 			children = (
-				EAD6992D22A631FF006F4C31 /* TreeDemo */,
-				EAD6992C22A631FF006F4C31 /* Products */,
+				EAD6997522A76E36006F4C31 /* TreeDemo */,
+				EAD6998222A76E54006F4C31 /* TreeParent */,
+				EAD6998D22A76E9C006F4C31 /* TreeChild */,
+				EAD6999822A76EBD006F4C31 /* TreeChildSibling */,
+				EAD699A322A78042006F4C31 /* BinaryTreeSeq */,
+				EAD699AE22A78055006F4C31 /* BinaryTreeLink */,
+				EAD6997422A76E36006F4C31 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EAD6992C22A631FF006F4C31 /* Products */ = {
+		EAD6997422A76E36006F4C31 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EAD6992B22A631FF006F4C31 /* TreeDemo */,
+				EAD6997322A76E36006F4C31 /* TreeDemo */,
+				EAD6998122A76E54006F4C31 /* TreeParent */,
+				EAD6998C22A76E9C006F4C31 /* TreeChild */,
+				EAD6999722A76EBD006F4C31 /* TreeChildSibling */,
+				EAD699A222A78042006F4C31 /* BinaryTreeSeq */,
+				EAD699AD22A78055006F4C31 /* BinaryTreeLink */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EAD6992D22A631FF006F4C31 /* TreeDemo */ = {
+		EAD6997522A76E36006F4C31 /* TreeDemo */ = {
 			isa = PBXGroup;
 			children = (
-				EAD6993622A63260006F4C31 /* Tree */,
-				EAD6993D22A632EF006F4C31 /* BinaryTree.h */,
-				EAD6993E22A632EF006F4C31 /* BinaryTree.c */,
+				EAD6997622A76E36006F4C31 /* main.c */,
 			);
 			path = TreeDemo;
 			sourceTree = "<group>";
 		};
-		EAD6993622A63260006F4C31 /* Tree */ = {
+		EAD6998222A76E54006F4C31 /* TreeParent */ = {
 			isa = PBXGroup;
 			children = (
-				EAD6993722A63260006F4C31 /* Tree.h */,
-				EAD6993822A63260006F4C31 /* main.c */,
-				EAD6993922A63260006F4C31 /* Tree.c */,
+				EAD699B822A780EA006F4C31 /* TreeParent.c */,
+				EAD699B722A780EA006F4C31 /* TreeParent.h */,
+				EAD6998322A76E54006F4C31 /* main.c */,
 			);
-			name = Tree;
-			path = ../../Tree;
+			path = TreeParent;
+			sourceTree = "<group>";
+		};
+		EAD6998D22A76E9C006F4C31 /* TreeChild */ = {
+			isa = PBXGroup;
+			children = (
+				EAD6998E22A76E9C006F4C31 /* main.c */,
+			);
+			path = TreeChild;
+			sourceTree = "<group>";
+		};
+		EAD6999822A76EBD006F4C31 /* TreeChildSibling */ = {
+			isa = PBXGroup;
+			children = (
+				EAD6999922A76EBD006F4C31 /* main.c */,
+			);
+			path = TreeChildSibling;
+			sourceTree = "<group>";
+		};
+		EAD699A322A78042006F4C31 /* BinaryTreeSeq */ = {
+			isa = PBXGroup;
+			children = (
+				EAD699B522A78080006F4C31 /* BinaryTreeSeq.c */,
+				EAD699B422A78080006F4C31 /* BinaryTreeSeq.h */,
+				EAD699A422A78042006F4C31 /* main.c */,
+			);
+			path = BinaryTreeSeq;
+			sourceTree = "<group>";
+		};
+		EAD699AE22A78055006F4C31 /* BinaryTreeLink */ = {
+			isa = PBXGroup;
+			children = (
+				EAD699AF22A78055006F4C31 /* main.c */,
+				EAD699BA22A782B8006F4C31 /* BinaryTreeLink.h */,
+				EAD699BB22A782B8006F4C31 /* BinaryTreeLink.c */,
+			);
+			path = BinaryTreeLink;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EAD6992A22A631FF006F4C31 /* TreeDemo */ = {
+		EAD6997222A76E36006F4C31 /* TreeDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EAD6993222A631FF006F4C31 /* Build configuration list for PBXNativeTarget "TreeDemo" */;
+			buildConfigurationList = EAD6997A22A76E36006F4C31 /* Build configuration list for PBXNativeTarget "TreeDemo" */;
 			buildPhases = (
-				EAD6992722A631FF006F4C31 /* Sources */,
-				EAD6992822A631FF006F4C31 /* Frameworks */,
-				EAD6992922A631FF006F4C31 /* CopyFiles */,
+				EAD6996F22A76E36006F4C31 /* Sources */,
+				EAD6997022A76E36006F4C31 /* Frameworks */,
+				EAD6997122A76E36006F4C31 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -98,55 +239,201 @@
 			);
 			name = TreeDemo;
 			productName = TreeDemo;
-			productReference = EAD6992B22A631FF006F4C31 /* TreeDemo */;
+			productReference = EAD6997322A76E36006F4C31 /* TreeDemo */;
+			productType = "com.apple.product-type.tool";
+		};
+		EAD6998022A76E54006F4C31 /* TreeParent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAD6998522A76E54006F4C31 /* Build configuration list for PBXNativeTarget "TreeParent" */;
+			buildPhases = (
+				EAD6997D22A76E54006F4C31 /* Sources */,
+				EAD6997E22A76E54006F4C31 /* Frameworks */,
+				EAD6997F22A76E54006F4C31 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TreeParent;
+			productName = TreeParent;
+			productReference = EAD6998122A76E54006F4C31 /* TreeParent */;
+			productType = "com.apple.product-type.tool";
+		};
+		EAD6998B22A76E9C006F4C31 /* TreeChild */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAD6999022A76E9C006F4C31 /* Build configuration list for PBXNativeTarget "TreeChild" */;
+			buildPhases = (
+				EAD6998822A76E9C006F4C31 /* Sources */,
+				EAD6998922A76E9C006F4C31 /* Frameworks */,
+				EAD6998A22A76E9C006F4C31 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TreeChild;
+			productName = TreeChild;
+			productReference = EAD6998C22A76E9C006F4C31 /* TreeChild */;
+			productType = "com.apple.product-type.tool";
+		};
+		EAD6999622A76EBD006F4C31 /* TreeChildSibling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAD6999B22A76EBD006F4C31 /* Build configuration list for PBXNativeTarget "TreeChildSibling" */;
+			buildPhases = (
+				EAD6999322A76EBD006F4C31 /* Sources */,
+				EAD6999422A76EBD006F4C31 /* Frameworks */,
+				EAD6999522A76EBD006F4C31 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TreeChildSibling;
+			productName = TreeChildSibling;
+			productReference = EAD6999722A76EBD006F4C31 /* TreeChildSibling */;
+			productType = "com.apple.product-type.tool";
+		};
+		EAD699A122A78042006F4C31 /* BinaryTreeSeq */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAD699A622A78042006F4C31 /* Build configuration list for PBXNativeTarget "BinaryTreeSeq" */;
+			buildPhases = (
+				EAD6999E22A78042006F4C31 /* Sources */,
+				EAD6999F22A78042006F4C31 /* Frameworks */,
+				EAD699A022A78042006F4C31 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BinaryTreeSeq;
+			productName = BinaryTreeSeq;
+			productReference = EAD699A222A78042006F4C31 /* BinaryTreeSeq */;
+			productType = "com.apple.product-type.tool";
+		};
+		EAD699AC22A78055006F4C31 /* BinaryTreeLink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAD699B122A78055006F4C31 /* Build configuration list for PBXNativeTarget "BinaryTreeLink" */;
+			buildPhases = (
+				EAD699A922A78055006F4C31 /* Sources */,
+				EAD699AA22A78055006F4C31 /* Frameworks */,
+				EAD699AB22A78055006F4C31 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BinaryTreeLink;
+			productName = BinaryTreeLink;
+			productReference = EAD699AD22A78055006F4C31 /* BinaryTreeLink */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EAD6992322A631FF006F4C31 /* Project object */ = {
+		EAD6996B22A76E36006F4C31 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = ggl;
 				TargetAttributes = {
-					EAD6992A22A631FF006F4C31 = {
+					EAD6997222A76E36006F4C31 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					EAD6998022A76E54006F4C31 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					EAD6998B22A76E9C006F4C31 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					EAD6999622A76EBD006F4C31 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					EAD699A122A78042006F4C31 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					EAD699AC22A78055006F4C31 = {
 						CreatedOnToolsVersion = 10.2;
 					};
 				};
 			};
-			buildConfigurationList = EAD6992622A631FF006F4C31 /* Build configuration list for PBXProject "TreeDemo" */;
+			buildConfigurationList = EAD6996E22A76E36006F4C31 /* Build configuration list for PBXProject "TreeDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = EAD6992222A631FF006F4C31;
-			productRefGroup = EAD6992C22A631FF006F4C31 /* Products */;
+			mainGroup = EAD6996A22A76E36006F4C31;
+			productRefGroup = EAD6997422A76E36006F4C31 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EAD6992A22A631FF006F4C31 /* TreeDemo */,
+				EAD6997222A76E36006F4C31 /* TreeDemo */,
+				EAD6998022A76E54006F4C31 /* TreeParent */,
+				EAD6998B22A76E9C006F4C31 /* TreeChild */,
+				EAD6999622A76EBD006F4C31 /* TreeChildSibling */,
+				EAD699A122A78042006F4C31 /* BinaryTreeSeq */,
+				EAD699AC22A78055006F4C31 /* BinaryTreeLink */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EAD6992722A631FF006F4C31 /* Sources */ = {
+		EAD6996F22A76E36006F4C31 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAD6993A22A63260006F4C31 /* main.c in Sources */,
-				EAD6993B22A63260006F4C31 /* Tree.c in Sources */,
-				EAD6993F22A632EF006F4C31 /* BinaryTree.c in Sources */,
+				EAD6997722A76E36006F4C31 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD6997D22A76E54006F4C31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD6998422A76E54006F4C31 /* main.c in Sources */,
+				EAD699B922A780EA006F4C31 /* TreeParent.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD6998822A76E9C006F4C31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD6998F22A76E9C006F4C31 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD6999322A76EBD006F4C31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD6999A22A76EBD006F4C31 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD6999E22A78042006F4C31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD699B622A78080006F4C31 /* BinaryTreeSeq.c in Sources */,
+				EAD699A522A78042006F4C31 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD699A922A78055006F4C31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD699BC22A782B8006F4C31 /* BinaryTreeLink.c in Sources */,
+				EAD699B022A78055006F4C31 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		EAD6993022A631FF006F4C31 /* Debug */ = {
+		EAD6997822A76E36006F4C31 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -205,7 +492,7 @@
 			};
 			name = Debug;
 		};
-		EAD6993122A631FF006F4C31 /* Release */ = {
+		EAD6997922A76E36006F4C31 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -257,7 +544,7 @@
 			};
 			name = Release;
 		};
-		EAD6993322A631FF006F4C31 /* Debug */ = {
+		EAD6997B22A76E36006F4C31 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -265,7 +552,87 @@
 			};
 			name = Debug;
 		};
-		EAD6993422A631FF006F4C31 /* Release */ = {
+		EAD6997C22A76E36006F4C31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EAD6998622A76E54006F4C31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EAD6998722A76E54006F4C31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EAD6999122A76E9C006F4C31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EAD6999222A76E9C006F4C31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EAD6999C22A76EBD006F4C31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EAD6999D22A76EBD006F4C31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EAD699A722A78042006F4C31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EAD699A822A78042006F4C31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EAD699B222A78055006F4C31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EAD699B322A78055006F4C31 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -276,25 +643,70 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EAD6992622A631FF006F4C31 /* Build configuration list for PBXProject "TreeDemo" */ = {
+		EAD6996E22A76E36006F4C31 /* Build configuration list for PBXProject "TreeDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EAD6993022A631FF006F4C31 /* Debug */,
-				EAD6993122A631FF006F4C31 /* Release */,
+				EAD6997822A76E36006F4C31 /* Debug */,
+				EAD6997922A76E36006F4C31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EAD6993222A631FF006F4C31 /* Build configuration list for PBXNativeTarget "TreeDemo" */ = {
+		EAD6997A22A76E36006F4C31 /* Build configuration list for PBXNativeTarget "TreeDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EAD6993322A631FF006F4C31 /* Debug */,
-				EAD6993422A631FF006F4C31 /* Release */,
+				EAD6997B22A76E36006F4C31 /* Debug */,
+				EAD6997C22A76E36006F4C31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAD6998522A76E54006F4C31 /* Build configuration list for PBXNativeTarget "TreeParent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAD6998622A76E54006F4C31 /* Debug */,
+				EAD6998722A76E54006F4C31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAD6999022A76E9C006F4C31 /* Build configuration list for PBXNativeTarget "TreeChild" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAD6999122A76E9C006F4C31 /* Debug */,
+				EAD6999222A76E9C006F4C31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAD6999B22A76EBD006F4C31 /* Build configuration list for PBXNativeTarget "TreeChildSibling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAD6999C22A76EBD006F4C31 /* Debug */,
+				EAD6999D22A76EBD006F4C31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAD699A622A78042006F4C31 /* Build configuration list for PBXNativeTarget "BinaryTreeSeq" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAD699A722A78042006F4C31 /* Debug */,
+				EAD699A822A78042006F4C31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAD699B122A78055006F4C31 /* Build configuration list for PBXNativeTarget "BinaryTreeLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAD699B222A78055006F4C31 /* Debug */,
+				EAD699B322A78055006F4C31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EAD6992322A631FF006F4C31 /* Project object */;
+	rootObject = EAD6996B22A76E36006F4C31 /* Project object */;
 }

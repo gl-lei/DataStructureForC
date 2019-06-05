@@ -4,9 +4,9 @@
 //
 //  Created by ggl on 2019/6/2.
 //  Copyright © 2019 ggl. All rights reserved.
-//
+//  树的双亲表示法实现
 
-#include "Tree.h"
+#include "TreeParent.h"
 
 // 初始化一颗空树
 void InitTree(Tree **tree) {
@@ -147,7 +147,7 @@ int TreeEmpty(Tree *tree) {
 }
 
 // 打印Tree
-void Print(Tree *tree) {
+void TreePrint(Tree *tree) {
     int i;
     if (tree == NULL || tree->size == 0) {
         return;
@@ -160,5 +160,12 @@ void Print(Tree *tree) {
         } else {
             printf("[%c p:%d]\n", tree->head[i].data, tree->head[i].parent);
         }
+    }
+}
+
+// 销毁树结构
+void TreeDealloc(Tree *tree) {
+    if (tree != NULL) {
+        free(tree);
     }
 }
