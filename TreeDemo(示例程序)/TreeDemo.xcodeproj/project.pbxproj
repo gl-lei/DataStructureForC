@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EAA8949722AD04C600ACAEB4 /* BinaryTreeQueue.c in Sources */ = {isa = PBXBuildFile; fileRef = EAA8949622AD04C600ACAEB4 /* BinaryTreeQueue.c */; };
 		EAD6997722A76E36006F4C31 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = EAD6997622A76E36006F4C31 /* main.c */; };
 		EAD6998422A76E54006F4C31 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = EAD6998322A76E54006F4C31 /* main.c */; };
 		EAD6998F22A76E9C006F4C31 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = EAD6998E22A76E9C006F4C31 /* main.c */; };
@@ -76,6 +77,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		EAA8949522AD04C600ACAEB4 /* BinaryTreeQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BinaryTreeQueue.h; path = "../../BinaryTreeLink(二叉树链式存储)/BinaryTreeQueue.h"; sourceTree = "<group>"; };
+		EAA8949622AD04C600ACAEB4 /* BinaryTreeQueue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = BinaryTreeQueue.c; path = "../../BinaryTreeLink(二叉树链式存储)/BinaryTreeQueue.c"; sourceTree = "<group>"; };
 		EAD6997322A76E36006F4C31 /* TreeDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TreeDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAD6997622A76E36006F4C31 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		EAD6998122A76E54006F4C31 /* TreeParent */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TreeParent; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -218,6 +221,8 @@
 				EAD699C622A787A3006F4C31 /* BinaryTreeLink.c */,
 				EAD699C722A787A3006F4C31 /* BinaryTreeLink.h */,
 				EAD699AF22A78055006F4C31 /* main.c */,
+				EAA8949522AD04C600ACAEB4 /* BinaryTreeQueue.h */,
+				EAA8949622AD04C600ACAEB4 /* BinaryTreeQueue.c */,
 			);
 			path = BinaryTreeLink;
 			sourceTree = "<group>";
@@ -425,6 +430,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAA8949722AD04C600ACAEB4 /* BinaryTreeQueue.c in Sources */,
 				EAD699C822A787A3006F4C31 /* BinaryTreeLink.c in Sources */,
 				EAD699B022A78055006F4C31 /* main.c in Sources */,
 			);
